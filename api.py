@@ -5,7 +5,7 @@ import os
 app = Flask(__name__)
 
 # - Security Key taaki koi aur tumhari API use na kar sake
-API_AUTH_TOKEN = "DRX_POWER_ULTRA_V4"
+API_AUTH_TOKEN = "Hazard_DDOS"
 
 @app.route('/hit', methods=['GET'])
 def start_attack():
