@@ -4,7 +4,7 @@ echo "🚀 DRX POWER SYSTEM STARTING..."
 
 # 1. Sabse pehle zaroori libraries install karega
 echo "📦 Installing Python libraries..."
-pip install flask telebot requests psutil --quiet
+pip3 install flask telebot requests psutil --quiet
 
 # 2. C Binary ko compile karega (High Power Mode)
 echo "⚙️ Compiling drx.c binary..."
