@@ -19,7 +19,7 @@ else:
 bot = telebot.TeleBot(config['token'])
 # Agar API isi VPS par hai toh '127.0.0.1' use karein, varna VPS ka IP dalein
 API_URL = "https://d9d1-2401-4900-1caa-449c-7c60-e86a-8561-c4ab.ngrok-free.app:8080/hit" 
-AUTH_TOKEN = "Hazard_DDOS"
+AUTH_TOKEN = "1flr0TN04OQIWqEPhAxIsbMGXwu_3JJY9XaWDArPaGM3G9HMV"
 
 # Database files
 KEYS_FILE = "keys.json"
