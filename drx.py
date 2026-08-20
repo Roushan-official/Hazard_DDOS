@@ -18,7 +18,7 @@ else:
 
 bot = telebot.TeleBot(config['token'])
 # Agar API isi VPS par hai toh '127.0.0.1' use karein, varna VPS ka IP dalein
-API_URL = " https://d568-2401-4900-1caa-449c-7c60-e86a-8561-c4ab.ngrok-free.app:8080" 
+API_URL = " https://5a9d-2401-4900-1caa-449c-7c60-e86a-8561-c4ab.ngrok-free.app:8080" 
 AUTH_TOKEN = "Hazard_DDOS"
 
 # Database files
@@ -136,7 +136,7 @@ def status(m):
     s.settimeout(2)
     try:
         # Localhost check ke liye 127.0.0.1 sahi hai
-        s.connect(('d568-2401-4900-1caa-449c-7c60-e86a-8561-c4ab.ngrok-free.app', 8080))
+        s.connect(('5a9d-2401-4900-1caa-449c-7c60-e86a-8561-c4ab.ngrok-free.app', 8080))
         api_status = "Online 🟢"
         s.close()
     except:
